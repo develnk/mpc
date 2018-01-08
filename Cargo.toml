@@ -40,7 +40,7 @@ optional = true
 bn = "0.4.1"
 crossbeam = "0.2.9"
 rand = "0.3.14"
-rustc-serialize = "~0.3.19"
+rustc-serialize = "~0.3.24"
 blake2-rfc = "0.2.17"
 byteorder = "0.5"
 

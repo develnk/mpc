@@ -18,6 +18,7 @@ RUN apt-get update && \
         git \
         sudo \
         xutils-dev \
+        musl-tools \
         && \
     apt-get clean && rm -rf /var/lib/apt/lists/* && \
     useradd rust --user-group --create-home --shell /bin/bash --groups sudo

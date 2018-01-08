@@ -1,6 +1,6 @@
 # Grab a snapshot of the `alpine` docker image from September 19, 2016.
 
-FROM alpine@sha256:02eb5cfe4b721495135728ab4aea87418fd4edbfbf83612130a81191f0b2aae3
+FROM alpine:latest
 
 # Add a partial local mirror of the alpine latest repository, signed
 # by the alpine developers.
